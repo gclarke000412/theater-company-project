@@ -1,18 +1,42 @@
+.navbar{
+    font-family: 'Roboto', sans-serif;
+
+}
+
 .background-img{
     position: relative;
     color: white;
+    margin: 0;
+}
+
+#background{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .centered{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    
 }
+
 
 footer{
     background-color: black;
     color: white;
+    padding: 20px 30px;
+    text-align: center;
 }
 
 .map-img{
